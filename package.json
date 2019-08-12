@@ -1,0 +1,26 @@
+{
+  "name": "typescript-meet-react",
+  "version": "1.0.0",
+  "description": "Learning react with ts",
+  "main": "app.tsx",
+  "scripts": {
+    "test": "test",
+    "build-alone": "webpack",
+    "build": "npm run version  && webpack",
+    "version": "echo \"Version Info:\" && node -v && npm -v && echo \"PATH:\" && echo $PATH"
+  },
+  "author": "me",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^16.9.1",
+    "@types/react-dom": "^16.8.5",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.6"
+  }
+}

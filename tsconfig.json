@@ -1,0 +1,33 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "jsx": "react",
+    "sourceMap": true,
+    "outDir": "./dist/out-tsc",
+    "baseUrl": "src",
+    "keyofStringsOnly": true,
+    "paths": {
+      "app/*": ["app/*"],
+      "test/*": ["../test/*"]
+    },
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "downlevelIteration": true,
+    "target": "es5",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2017.object",
+      "es2016",
+      "dom"
+    ],
+    "noImplicitAny": false,
+    "suppressImplicitAnyIndexErrors": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
